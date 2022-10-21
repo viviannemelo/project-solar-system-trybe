@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Title extends Component {
+class Title extends React.Component {
   render() {
-    return (
-      <h2>{this.props.headline}</h2>
-    );
+    Title.propTypes = { headline: PropTypes.string.isRequired };
+    const { headline } = this.props;
+    return <h2>{headline}</h2>;
   }
 }
 
