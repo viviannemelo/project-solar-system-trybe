@@ -19,8 +19,8 @@ header h1 {
   background-image: url('./images/logo-sistema-solar.png');
   background-position: 50%;
   background-repeat: no-repeat;
+  font-size: 0.001px;
   padding: 300px;
-  text-align: center;
 }
 
 .solar-system {

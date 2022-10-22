@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1 className="solar-system"> </h1>
+        <h1 className="solar-system">Sistema Solar</h1>
       </header>
     );
   }
