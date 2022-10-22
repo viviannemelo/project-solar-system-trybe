@@ -7,9 +7,9 @@ import PlanetCard from './PlanetCard';
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className="solar-system">
         <Title headline="Planetas" />
-        <ul>
+        <ul className="list-planets">
           { planets
             .map((planet) => (
               <PlanetCard

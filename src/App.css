@@ -1,3 +1,148 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  font-size: 10.5rem;
   text-align: center;
+}
+
+header h1 {
+  padding: 300px;
+  background-image: url('./images/logo-sistema-solar.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  text-align: center;
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.solar-system h2 {
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-card > div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.planet-card img {
+  width: 100%;
+}
+
+.planet-card h3 {
+  font-weight: 300;
+}
+
+.mercurio {
+  width: 6.2%;
+}
+
+.venus {
+  width: 8%;
+}
+
+.terra {
+  width: 8.2%;
+}
+
+.marte {
+  width: 6.7%;
+}
+
+.jupiter {
+  width: 25.7%;
+}
+
+.saturno {
+  width: 20.1%;
+}
+
+.urano {
+  width: 12.8%;
+}
+
+.netuno {
+  width: 12.4%;
+}
+
+.title {
+  background-color: rgba(17, 17, 17, 0.616);
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25pt;
+  font-weight: 400;
+  margin: 180px auto 20px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.list-planets {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.list-missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 20px 30px;
+  padding: 15px;
+  width: 20%;
+}
+
+.mission-card h3 {
+  font-size: 5rem;
+}
+
+.mission-card ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 14pt;
+  list-style: none;
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
+}
+
+.mission-name {
+  font-family: 'Epilogue';
+  font-size: 28px;
+  font-weight: 300;
+  border-bottom: 1px solid white;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.mission-card p {
+  margin-top: 8px;
 }

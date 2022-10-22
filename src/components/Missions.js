@@ -8,7 +8,7 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <ul>
+        <ul className="list-missions">
           {missions
             .map((mission) => (
               <MissionCard
