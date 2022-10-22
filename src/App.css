@@ -7,7 +7,7 @@
 body {
   background-image: url('./images/background.png');
   color: white;
-  font-family: Impact, sans-serif;
+  font-family: Impact , sans-serif;
 }
 
 header {
@@ -91,7 +91,7 @@ header h1 {
   border: solid 1px white;
   border-radius: 10px;
   color: white;
-  font-family: Impact, sans-serif;
+  font-family: Impact , sans-serif;
   font-size: 25pt;
   font-weight: 400;
   margin: 180px auto 20px;
